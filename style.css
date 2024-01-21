@@ -1,0 +1,113 @@
+body{
+  background-color: lightcoral;
+  height: 100vh;
+  display: flex;
+  overflow-x: hidden;
+  background-image: url(./love-background.png);
+  background-repeat: no-repeat;
+}
+/* .background-img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+} */
+.container{
+  width: 500px;
+  height: 400px;
+  margin: auto; 
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(232, 10, 80);
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.offer{
+  font-size: 40px;
+  color: white;
+  margin-top: -40px; 
+}
+.gif{
+  width: 200px;
+  height: 200px;
+  z-index: 2;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+.main-answ{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  gap: 100px;
+}
+.yes{
+  width: 130px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  background-color:lightgray;
+  color:black;
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  
+}
+.yes:hover{
+  background-color: lightslategray;
+  transition: 0.5s;
+  color: white;
+  cursor: pointer;
+}
+.no{
+  width: 130px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  background-color:lightgray;
+  color:black;
+   position: absolute; 
+   right: 5%;
+  bottom: 10%;
+  z-index: 2;
+}
+.no:hover{
+  background-color: lightslategray;
+  transition: 0.5s;
+  color: white;
+  cursor: pointer;
+}
+.finish{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50px,-50px);
+  display: none;
+}
+.hover_diuv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: none;
+}
+.hover-img{
+  width: 300px;
+  height: 100px;
+  margin-left: 40px;
+}
+.hover-text{
+   font-family: 'Love Ya Like A Sister', cursive;
+   font-size: 60px;
+   color: rgb(233, 34, 67);
+   box-shadow: 10px 10px 15px 5px red;
+   border: none;
+}
